@@ -1,4 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
+import { Hero } from '../../interfaces/hero';
+import { HeroService } from '../../services/hero.service';
 
 @Component({
 	selector: 'app-hero-card',
@@ -7,9 +9,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeroCardComponent implements OnInit {
 
-	constructor() { }
+	@Input() heroId: number;
+	hero: Hero;
+
+	constructor(private heroService: HeroService) { }
 
 	ngOnInit(): void {
+		this.hero = this.heroService.getHero(this.heroId);
 	}
 
 }

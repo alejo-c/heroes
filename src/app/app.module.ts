@@ -1,22 +1,25 @@
 import { NgModule } from '@angular/core';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './core/components/navbar/navbar.component';
-import { PageNotFoundComponent } from './core/components/page-not-found/page-not-found.component';
+import { AboutPageComponent } from './core/pages/about-page/about-page.component';
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    NavbarComponent,
-    PageNotFoundComponent
-  ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule
-  ],
-  providers: [],
-  bootstrap: [AppComponent]
+	declarations: [
+		AppComponent,
+		NavbarComponent,
+		AboutPageComponent,
+	],
+	imports: [
+		BrowserModule,
+		AppRoutingModule,
+		FormsModule,
+		ReactiveFormsModule
+	],
+	providers: [],
+	bootstrap: [AppComponent]
 })
 export class AppModule { }
