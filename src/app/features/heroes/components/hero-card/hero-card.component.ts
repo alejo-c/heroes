@@ -11,11 +11,11 @@ export class HeroCardComponent implements OnInit {
 
 	@Input() heroId: number;
 	hero: Hero;
+	mouseOvered: boolean;
 
 	constructor(private heroService: HeroService) { }
 
 	ngOnInit(): void {
 		this.hero = this.heroService.getHero(this.heroId);
 	}
-
 }
