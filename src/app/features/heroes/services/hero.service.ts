@@ -7,19 +7,23 @@ import { Hero } from '../interfaces/hero';
 })
 export class HeroService {
 
-	private heroes: Hero[] = heroesJson;
-	selectedHeroesIndexes: number[];
+	private heroes: Hero[] = heroesJson
+	private selectedHeroesIndexes: number[]
 
 	constructor() {
-		this.selectedHeroesIndexes = [...Array(this.heroes.length).keys()].map(i => i + 1);
+		this.selectedHeroesIndexes = [...Array(this.heroes.length).keys()].map(i => i + 1)
+	}
+
+	getHeroesLength(): number {
+		return this.heroes.length
 	}
 
 	getHero(id: number): Hero {
-		return this.heroes[id - 1];
+		return this.heroes[id - 1]
 	}
 
-	getHeroIndex(hero: Hero): any {
-		return this.heroes.indexOf(hero);
+	getHeroIndex(hero: Hero): number {
+		return this.heroes.indexOf(hero)
 	}
 
 	setSelectedHeroes(name: string) {
@@ -29,7 +33,11 @@ export class HeroService {
 		).map(hero => hero.id)
 	}
 
+	getSelectedHeroesIndexes(): number[] {
+		return this.selectedHeroesIndexes
+	}
+
 	getHeroesIndexes(): number[] {
-		return this.selectedHeroesIndexes;
+		return this.selectedHeroesIndexes
 	}
 }
