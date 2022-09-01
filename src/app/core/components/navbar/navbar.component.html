@@ -1,5 +1,6 @@
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-	<div class="container-fluid">
+<nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top flex-md-nowrap flex-wrap">
+
+	<div class="container">
 		<a class="navbar-brand" routerLink="heroes">
 			<img src="assets/images/A-64.png" alt="logo" srcset="" width="30" ieight="20">
 			Heroes
@@ -9,23 +10,33 @@
 			aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
 		</button>
+
 		<div class="collapse navbar-collapse" id="navbarSupportedContent">
 			<ul class="navbar-nav me-auto mb-2 mb-lg-0">
 				<li class="nav-item">
 					<a class="nav-link" aria-current="page" routerLink="/heroes"
-						routerLinkActive="active">Index</a>
+						routerLinkActive="active"
+						[routerLinkActiveOptions]="{ exact: true }">Index</a>
 				</li>
 				<li class="nav-item">
 					<a class="nav-link" routerLink="/about" routerLinkActive="active">About</a>
 				</li>
 			</ul>
 
-			<form class="d-flex" role="search" ngForm #search="ngForm"
-				(ngSubmit)="searchHero(search)">
-				<input class="form-control me-2" type="search" placeholder="Search"
-					aria-label="Search" name="heroName" #heroName="ngModel" ngModel>
-				<button class="btn btn-outline-light" type="submit">Search</button>
-			</form>
+			<div class="flex-grow-1"></div>
+
+			<div class="text-center flex-grow-1 justify-content-center">
+				<form class="d-flex" role="search" ngForm #search="ngForm"
+					(ngSubmit)="searchHero(search)">
+					<input class="form-control me-2" type="search" placeholder="Search"
+						aria-label="Search" name="heroName" #heroName="ngModel" ngModel>
+				</form>
+			</div>
+
+			<div class="flex-grow-1"></div>
+			<div class="flex-grow-1"></div>
+
+			<auth-area></auth-area>
 		</div>
 	</div>
 </nav>
