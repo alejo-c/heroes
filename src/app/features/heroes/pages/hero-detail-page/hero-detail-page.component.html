@@ -1,10 +1,11 @@
-<div class="row">
-	<img src="../../../{{ hero.img }}" class="col-4" alt="..." height="350">
+<div class="row container">
+	<img src="../../../{{ hero.img }}" class="col-4">
 
 	<div class="col-7">
-		<h1>{{ hero.name | uppercase }}</h1>
+		<h1 class="fw-bold">{{ hero.name | uppercase }}</h1>
 		<p><strong>Biography:</strong> {{ hero.bio }}.</p>
-		<p><strong>First Appearance:</strong> {{ hero.appearance | date:'y' }}</p>
+		<p><strong>First Appearance:</strong> {{ hero.appearance | date:'y / MMM / d' }}</p>
+		<p><strong>Company:</strong> {{ hero.company }}</p>
 		<a routerLink="/heroes" class="btn btn-outline-primary">Return</a>
 	</div>
 </div>

@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, Router, ParamMap } from '@angular/router';
-import { Observable, switchMap } from 'rxjs';
 import { Hero } from '../../interfaces/hero';
 import { HeroService } from '../../services/hero.service';
 
@@ -15,10 +14,20 @@ export class HeroDetailPageComponent implements OnInit {
 
 	constructor(
 		private route: ActivatedRoute,
+		private router: Router,
 		private heroService: HeroService) { }
 
 	ngOnInit() {
-		const heroId = this.route.snapshot.paramMap.get('id');
-		this.hero = this.heroService.getHero(Number(heroId));
+		try {
+			let heroId = Number(this.route.snapshot.paramMap.get('id'))
+			let heroLength = this.heroService.getHeroesLength()
+
+			if (heroId < 1 || heroId > heroLength || isNaN(heroId))
+				throw new Error('Hero index out of range')
+
+			this.hero = this.heroService.getHero(Number(heroId))
+		} catch (e) {
+			this.router.navigate(['404'])
+		}
 	}
 }
