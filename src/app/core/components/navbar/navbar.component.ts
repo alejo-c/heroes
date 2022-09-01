@@ -1,4 +1,4 @@
-import { Component, Input, OnInit } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 import { NgForm } from "@angular/forms";
 import { HeroService } from '@features/heroes/services/hero.service';
@@ -17,13 +17,18 @@ export class NavbarComponent implements OnInit {
 	}
 
 	public searchHero(search: NgForm): void {
-		this.heroService.setSelectedHeroes(search.value.heroName);
+		this.heroService.setSelectedHeroes(search.value.heroName)
 
-		this.router.routeReuseStrategy.shouldReuseRoute = () => false;
-		this.router.onSameUrlNavigation = 'reload';
+		this.router.routeReuseStrategy.shouldReuseRoute = () => false
+		this.router.onSameUrlNavigation = 'reload'
 
-		this.router.navigate(['']).then(() =>
+		if (this.heroService.getSelectedHeroesIndexes().length == 0) {
+			this.router.navigate(['404'])
+			return
+		}
+
+		this.router.navigate(['heroes']).then(() =>
 			this.heroService.setSelectedHeroes('')
-		);
+		)
 	}
 }
