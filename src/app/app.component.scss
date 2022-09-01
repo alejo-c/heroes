@@ -1,0 +1,10 @@
+.scrollArea {
+	margin-top: 3.5em;
+	width: 100vw;
+	height: 92vh;
+	overflow-y: scroll;
+}
+
+.scrollArea::-webkit-scrollbar {
+	display: none;
+}
