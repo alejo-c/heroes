@@ -1,0 +1,27 @@
+<div class="text-center">
+	<img src="{{ currentUser?.picture }}" width="200" height="200"
+		class="rounded-circle profile-img">
+
+	<div class="row">
+		<span class="col-3"></span>
+		<ul class="list-group col-6">
+			<li class="list-group-item">
+				<strong>Name:</strong>
+				<div>{{ currentUser?.name }}</div>
+			</li>
+			<li class="list-group-item">
+				<strong>Nickname:</strong>
+				<div>{{ currentUser?.nickname }}</div>
+			</li>
+			<li class="list-group-item">
+				<strong>E-mail:</strong>
+				<div>{{ currentUser?.email }}</div>
+			</li>
+			<li class="list-group-item">
+				<strong>E-mail verified:</strong>
+				<div>{{ currentUser?.email_verified ? 'Yes' : 'No' }}</div>
+			</li>
+		</ul>
+		<span class="col-3"></span>
+	</div>
+</div>
