@@ -1,17 +1,20 @@
 <ng-container *ngIf="(auth.isAuthenticated$ | async) === false">
-	<button class="btn btn-outline-info fw-bold mt-2 mb-1" (click)="auth.loginWithRedirect()">Log in</button>
+	<button class="btn btn-outline-info fw-bold mt-1" (click)="auth.loginWithRedirect()">Log
+		in</button>
 </ng-container>
 
 <ng-container *ngIf="auth.isAuthenticated$ | async">
 
-	<div class="flex-shrink-0 dropdown mt-2 mb-1">
+	<div class="flex-shrink-0 dropdown mt-2">
 		<a href="#" class="d-block link-light align-middle text-decoration-none dropdown-toggle"
 			data-bs-toggle="dropdown" aria-expanded="false">
 			<img src="{{ currentUser?.picture }}" width="32" height="32"
-				class="rounded-circle profile-img"></a>
+				class="rounded-circle profile-img">
+		</a>
 
 		<ul class="dropdown-menu dropdown-menu-dark dropdown-menu-start text-small shadow">
-			<li><a class="dropdown-item" routerLink="/profile" routerLinkActive="active">Profile</a>
+			<li>
+				<a class="dropdown-item" routerLink="/profile" routerLinkActive="active">Profile</a>
 			</li>
 			<li>
 				<hr class="dropdown-divider">
