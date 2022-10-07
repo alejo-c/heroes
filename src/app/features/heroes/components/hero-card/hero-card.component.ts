@@ -16,6 +16,6 @@ export class HeroCardComponent implements OnInit {
 	constructor(private heroService: HeroService) { }
 
 	ngOnInit(): void {
-		this.hero = this.heroService.getHero(this.heroId);
+		this.hero = this.heroService.getHeroById(this.heroId);
 	}
 }

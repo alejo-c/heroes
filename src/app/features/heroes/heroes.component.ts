@@ -12,10 +12,9 @@ export class HeroesComponent implements OnInit {
 	heroes: number[];
 
 	constructor(private heroService: HeroService) {
-		this.heroes = this.heroService.getHeroesIndexes();
+		this.heroes = this.heroService.getSelectedHeroesIndexes();
 	}
 
 	ngOnInit(): void {
 	}
-
 }
