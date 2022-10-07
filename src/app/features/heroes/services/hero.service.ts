@@ -11,14 +11,14 @@ export class HeroService {
 	private selectedHeroesIndexes: number[]
 
 	constructor() {
-		this.selectedHeroesIndexes = [...Array(this.heroes.length).keys()].map(i => i + 1)
+		this.selectedHeroesIndexes = this.heroes.map(hero => hero.id)
 	}
 
 	getHeroesLength(): number {
 		return this.heroes.length
 	}
 
-	getHero(id: number): Hero {
+	getHeroById(id: number): Hero {
 		return this.heroes[id - 1]
 	}
 
@@ -31,10 +31,6 @@ export class HeroService {
 	}
 
 	getSelectedHeroesIndexes(): number[] {
-		return this.selectedHeroesIndexes
-	}
-
-	getHeroesIndexes(): number[] {
 		return this.selectedHeroesIndexes
 	}
 }
