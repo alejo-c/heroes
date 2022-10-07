@@ -3,14 +3,16 @@
 		height="400px">
 
 	<div class="col-lg-7">
+		<div class="d-flex">
+			<a routerLink="/heroes/{{ prevHeroId }}" class="btn btn-outline-warning float-start"
+				[ngClass]="prevHeroButtonVisible ? 'visible' : 'invisible'">Previous</a>
+			<a routerLink="/heroes/{{ nextHeroId }}" class="btn btn-outline-primary float-end"
+				[ngClass]="nextHeroButtonVisible ? 'visible' : 'invisible'">Next</a>
+		</div>
+
 		<h1 class="fw-bold">{{ hero.name | uppercase }}</h1>
 		<p><strong>Biography:</strong> {{ hero.bio }}.</p>
 		<p><strong>First Appearance:</strong> {{ hero.appearance | date:'y / MMM' }}</p>
 		<p><strong>Company:</strong> {{ hero.company }}</p>
-
-		<a routerLink="/heroes/{{ prevHeroId }}" class="btn btn-outline-warning"
-			[ngClass]="prevHeroButtonVisible ? 'visible' : 'invisible'">Previous</a>
-		<a routerLink="/heroes/{{ nextHeroId }}" class="btn btn-outline-primary"
-			[ngClass]="nextHeroButtonVisible ? 'visible' : 'invisible'">Next</a>
 	</div>
 </div>
