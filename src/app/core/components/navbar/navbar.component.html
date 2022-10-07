@@ -25,12 +25,8 @@
 
 			<div class="flex-grow-1"></div>
 
-			<div class="text-center flex-grow-1 justify-content-center">
-				<form class="d-flex" role="search" ngForm #search="ngForm"
-					(ngSubmit)="searchHero(search)">
-					<input class="form-control me-2" type="search" placeholder="Search Hero"
-						aria-label="Search" name="heroName" #heroName="ngModel" ngModel>
-				</form>
+			<div class="flex-grow-1">
+				<search-bar></search-bar>
 			</div>
 
 			<div class="flex-grow-1"></div>

@@ -10,6 +10,7 @@ import { AboutPageComponent } from './core/pages/about-page/about-page.component
 import { PageNotFoundComponent } from './core/pages/page-not-found/page-not-found.component';
 import { AuthAreaComponent } from './core/components/auth-area/auth-area.component';
 import { UserProfilePageComponent } from './features/auth/user-profile-page/user-profile-page.component';
+import { SearchBarComponent } from './core/components/search-bar/search-bar.component';
 
 @NgModule({
 	declarations: [
@@ -19,6 +20,7 @@ import { UserProfilePageComponent } from './features/auth/user-profile-page/user
 		PageNotFoundComponent,
 		AuthAreaComponent,
 		UserProfilePageComponent,
+		SearchBarComponent,
 	],
 	imports: [
 		BrowserModule,

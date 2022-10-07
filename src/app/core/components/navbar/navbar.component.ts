@@ -1,34 +1,14 @@
 import { Component, OnInit } from '@angular/core';
-import { Router } from '@angular/router';
-import { NgForm } from "@angular/forms";
-import { HeroService } from '@features/heroes/services/hero.service';
 
 @Component({
-	selector: 'app-navbar',
+	selector: 'navbar',
 	templateUrl: './navbar.component.html',
 	styleUrls: ['./navbar.component.scss']
 })
 export class NavbarComponent implements OnInit {
 
-	constructor(private router: Router,
-		private heroService: HeroService) { }
+	constructor() { }
 
 	ngOnInit(): void {
-	}
-
-	public searchHero(search: NgForm): void {
-		this.heroService.setSelectedHeroes(search.value.heroName)
-
-		this.router.routeReuseStrategy.shouldReuseRoute = () => false
-		this.router.onSameUrlNavigation = 'reload'
-
-		if (this.heroService.getSelectedHeroesIndexes().length == 0) {
-			this.router.navigate(['404'])
-			return
-		}
-
-		this.router.navigate(['heroes']).then(() =>
-			this.heroService.setSelectedHeroes('')
-		)
 	}
 }

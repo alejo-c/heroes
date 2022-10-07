@@ -22,15 +22,12 @@ export class HeroService {
 		return this.heroes[id - 1]
 	}
 
-	getHeroIndex(hero: Hero): number {
-		return this.heroes.indexOf(hero)
-	}
-
-	setSelectedHeroes(name: string) {
-		this.selectedHeroesIndexes = this.heroes.filter(
-			hero => hero.name.toLocaleLowerCase()
-				.includes(name.toLocaleLowerCase())
-		).map(hero => hero.id)
+	setSelectedHeroes(subString: string) {
+		this.selectedHeroesIndexes = this.heroes
+			.filter(
+				hero => hero.name.toLocaleLowerCase()
+					.includes(subString.toLocaleLowerCase())
+			).map(hero => hero.id)
 	}
 
 	getSelectedHeroesIndexes(): number[] {
