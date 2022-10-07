@@ -10,22 +10,38 @@ import { HeroService } from '../../services/hero.service';
 })
 export class HeroDetailPageComponent implements OnInit {
 
-	hero: Hero;
+	hero: Hero
+	prevHeroId: number
+	nextHeroId: number
+	prevHeroButtonVisible: boolean
+	nextHeroButtonVisible: boolean
 
 	constructor(
 		private route: ActivatedRoute,
 		private router: Router,
-		private heroService: HeroService) { }
+		private heroService: HeroService) {
+		this.prevHeroButtonVisible = true
+		this.nextHeroButtonVisible = true
+	}
 
 	ngOnInit() {
-		try {
-			let heroId = Number(this.route.snapshot.paramMap.get('id'))
-			let heroLength = this.heroService.getHeroesLength()
+		this.router.routeReuseStrategy.shouldReuseRoute = () => false
+		this.router.onSameUrlNavigation = 'reload'
 
+		let heroId: number = Number(this.route.snapshot.paramMap.get('id'))
+		let heroLength = this.heroService.getHeroesLength()
+
+		try {
 			if (heroId < 1 || heroId > heroLength || isNaN(heroId))
 				throw new Error('Hero index out of range')
 
-			this.hero = this.heroService.getHero(Number(heroId))
+			this.hero = this.heroService.getHeroById(heroId)
+
+			this.prevHeroId = this.hero.id - 1
+			this.nextHeroId = this.hero.id + 1
+			if (this.prevHeroId < 1) this.prevHeroButtonVisible = false
+			if (this.nextHeroId > heroLength) this.nextHeroButtonVisible = false
+
 		} catch (e) {
 			this.router.navigate(['404'])
 		}
