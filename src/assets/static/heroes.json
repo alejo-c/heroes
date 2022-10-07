@@ -3,176 +3,176 @@
 		"id": 1,
 		"name": "Aquaman",
 		"bio": "An adventurer who is half-human and half-Atlantean. This gives him a variety of powers including superhuman strength, telepathic control over marine life, and the ability to survive both in water and on land. He belongs to the royal family of Atlantis, and normally acts as their king. He is a founding member of two superhero teams, the world-famous Justice League",
-		"img": "assets/images/aquaman.png",
-		"appearance": "1941-11-01",
+		"img": "aquaman.png",
+		"appearance": "1941-11",
 		"company": "DC"
 	},
 	{
 		"id": 2,
 		"name": "Batman",
 		"bio": "Operating in Gotham City, he serves as its protector, using the symbol of a bat to strike fear into the hearts of criminals. Unlike other superheroes, Batman is often depicted to lack any \"superpowers\", instead using lifelong training and equipment to fight crime. His secret identity is Bruce Wayne, a rich playboy and philanthropist who swore to fight crime after witnessing his parents' brutal murder. He has served as a member of various teams, including the Justice League, the Justice Society of America and the Outsiders. Batman is also the founder and leader of various teams, including the Batman Family, Batmen of All Nations and Batman Incorporated. He also goes by numerous nicknames, including \"The Dark Knight\", \"the Caped Crusader\", \"World's Greatest Detective\" and the \"Defender of Gotham\"",
-		"img": "assets/images/batman.png",
-		"appearance": "1939-05-01",
+		"img": "batman.png",
+		"appearance": "1939-05",
 		"company": "DC"
 	},
 	{
 		"id": 3,
 		"name": "Batwoman",
 		"bio": "Kathy Kane is a rich heiress with an unusual background as a former circus performer. She decides to use her athletic skills to become a costumed crime fighter in imitation of Batman, and she eventually becomes a frequent ally of Batman and Robin. In 1961 Kathy’s niece, Betty Kane, became Batwoman's sidekick, Bat-Girl",
-		"img": "assets/images/batwoman.png",
-		"appearance": "1956-07-01",
+		"img": "batwoman.png",
+		"appearance": "1956-07",
 		"company": "DC"
 	},
 	{
 		"id": 4,
 		"name": "Black Widow",
 		"bio": "Ruthless, efficient, and exceptionally skilled, Natasha strikes fear into the hearts of her enemies. Although she once operated on the side of evil, her innate heroism allowed her to overcome her upbringing and defect, setting her on a lifelong path of redemption. She is a former KGB operative, a high-profile S.H.I.E.L.D. agent, Nick Fury's top spy, besides being one of the Avengers. She is Hawkeye's best friend and Yelena Belova's adoptive older sister",
-		"img": "assets/images/black-widow.png",
-		"appearance": "1964-04-01",
+		"img": "black-widow.png",
+		"appearance": "1964-04",
 		"company": "Marvel"
 	},
 	{
 		"id": 5,
 		"name": "Captain America",
 		"bio": "a frail young artist enhanced to the peak of human perfection by an experimental \"super-soldier serum\" after joining the military to aid the United States government's efforts in World War II. Near the end of the war, he was trapped in ice and survived in suspended animation until he was revived in modern times. Although Captain America often struggles to maintain his ideals as a man out of his time, he remains a highly respected figure both with the American public and in the superhero community, which includes becoming the long-time leader of the Avengers",
-		"img": "assets/images/captain-america.png",
-		"appearance": "1941-03-01",
+		"img": "captain-america.png",
+		"appearance": "1941-03",
 		"company": "Marvel"
 	},
 	{
 		"id": 6,
 		"name": "Ciclops",
 		"bio": "Cyclops is a member of a subspecies of humans known as mutants, who are born with superhuman abilities. Cyclops emits powerful beams of energy from his eyes, and can only control the beams with the aid of special eyewear which he must wear at all times. He is typically considered the first of the X-Men, a team of mutant heroes who fight for peace and equality between mutants and humans, and one of the team's primary leaders",
-		"img": "assets/images/ciclops.png",
-		"appearance": "1963-09-01",
+		"img": "ciclops.png",
+		"appearance": "1963-09",
 		"company": "Marvel"
 	},
 	{
 		"id": 7,
 		"name": "Daredevil",
 		"bio": "Al haber perdido la vista, los cuatro sentidos restantes de Daredevil fueron aumentados por la radiación a niveles superhumanos, en el accidente que tuvo cuando era niño. A pesar de su ceguera, puede 'ver' a través de un 'sexto sentido' que le sirve como un radar similar al de los murciélagos.His origins stem from a childhood car accident that gave him special abilities. While growing up in the historically gritty or crime-ridden working class Irish-American neighborhood of Hell's Kitchen in New York City, Matt Murdock is blinded by a radioactive substance that falls from an out-of-control truck after he pushes a man out of the path of the oncoming vehicle. While he can no longer see, his exposure to the radioactive material heightens his remaining senses beyond normal human ability, and gives him a \"radar sense\". His father, a boxer named Jack Murdock, is a single man raising his now blind son, who despite his rough upbringing, unconditionally loves his son and tries to teach him to form a better life for himself. Jack is later killed by gangsters after refusing to throw a fight, leaving Matt an orphan. In order to protect himself, Matt began training to hone his physical abilities and superhuman senses under the tutelage of a mysterious blind stranger named Stick, eventually becoming a highly skilled and expert martial artis",
-		"img": "assets/images/daredevil.png",
-		"appearance": "1964-01-01",
+		"img": "daredevil.png",
+		"appearance": "1964-01",
 		"company": "Marvel"
 	},
 	{
 		"id": 8,
 		"name": "Flash",
 		"bio": "Barry Allen is a forensic chemist with a reputation for being very slow, and frequently late, which frustrates his fiancée, Iris West. One night, as he is working late on a new case, a lightning bolt strikes and shatters a case full of unspecified chemicals and drenches all over Barry, temporarily knocking him out. As a result, Allen later finds that he can run at super-human speeds and possesses equally enhanced reflexes, senses, and healing. He later dons a red bodysuit, sporting a lightning bolt in the chest (reminiscent of the original Fawcett Comics Captain Marvel), dubs himself the Flash (after his childhood comic book hero, Jay Garrick), and becomes Central City's resident costumed crime fighter and protector",
-		"img": "assets/images/flash.png",
-		"appearance": "1940-01-01",
+		"img": "flash.png",
+		"appearance": "1940-01",
 		"company": "DC"
 	},
 	{
 		"id": 9,
 		"name": "Green Arrow",
 		"bio": "Sometimes shown dressed like the character Robin Hood, Green Arrow is an archer who uses his skills to fight crime in his home cities of Star City and Seattle, as well as alongside his fellow superheroes as a member of the Justice League. Though much less frequently used in modern stories, he also deploys a range of trick arrows (in contemporary times, they are referred as \"specialty arrows\") with various special functions, such as glue, explosive-tipped, grappling hook, flash grenade, tear gas and even kryptonite arrows for use in a range of special situations",
-		"img": "assets/images/green-arrow.png",
-		"appearance": "1941-11-01",
+		"img": "green-arrow.png",
+		"appearance": "1941-11",
 		"company": "DC"
 	},
 	{
 		"id": 10,
 		"name": "Green Lantern",
 		"bio": "Poseedor del anillo de poder que posee la capacidad de crear manifestaciones de luz sólida mediante la utilización del pensamiento. Es alimentado por la Llama Verde (revisada por escritores posteriores como un poder místico llamado Starheart), una llama mágica contenida en dentro de un orbe (el orbe era en realidad un meteorito verde de metal que cayó a la Tierra, el cual encontró un fabricante de lámparas llamado Chang)",
-		"img": "assets/images/green-lantern.png",
-		"appearance": "1940-06-01",
+		"img": "green-lantern.png",
+		"appearance": "1940-06",
 		"company": "DC"
 	},
 	{
 		"id": 11,
 		"name": "Hulk",
 		"bio": "Su principal poder es su capacidad de aumentar su fuerza hasta niveles prácticamente ilimitados a la vez que aumenta su furia. Dependiendo de qué personalidad de Hulk esté al mando en ese momento (el Hulk Banner es el más débil, pero lo compensa con su inteligencia).He is a gigantic, green, irradiated, mutated humanoid monster with incredible strength and an inability to control his rage. The Hulk is sometimes characterized as hyper-aggressive and brutal, other times as cunning, brilliant, and scheming. He is often portrayed as an antihero. The Hulk is cast as the emotional and impulsive alter ego of the withdrawn and reserved physicist Dr. Bruce Banner. Lee said the Hulk's creation was inspired by a combination of Dr. Jekyll and Mr. Hyde and Frankenstein",
-		"img": "assets/images/hulk.png",
-		"appearance": "1962-05-01",
+		"img": "hulk.png",
+		"appearance": "1962-05",
 		"company": "Marvel"
 	},
 	{
 		"id": 12,
 		"name": "Invisible Woman",
 		"bio": "Sue Storm received her powers by being exposed to a cosmic storm, and was originally known as the Invisible Girl. She possesses two powers: invisibility and force fields. Her invisibility power deals with bending light waves and allows her to render herself and other objects invisible. She can also project powerful fields of invisible psionic, hyperspace-based energy that she uses for a variety of offensive and defensive effects, including shields, blasts, explosions, and levitation. Sue plays a central role in the lives of her hot-headed younger brother Johnny Storm, her brilliant husband Reed Richards, and her close friend Ben Grimm",
-		"img": "assets/images/invisible-woman.png",
-		"appearance": "",
+		"img": "invisible-woman.png",
+		"appearance": "1961-08",
 		"company": "Marvel"
 	},
 	{
 		"id": 13,
 		"name": "Iron Man",
 		"bio": "When billionaire industrialist Tony Stark dons his sophisticated steel-mesh armor, he becomes a living high-tech weapon - the world's greatest fighting machine. Tony has primed his ultra modern creation for waging state of the art campaigns, attaining sonic flight, and defending the greater good! He is the Armored Avenger - driven by a heart that is part machine, but all hero! He is the INVINCIBLE IRON MAN!",
-		"img": "assets/images/iron-man.png",
-		"appearance": "1968-05-01",
+		"img": "iron-man.png",
+		"appearance": "1968-05",
 		"company": "Marvel"
 	},
 	{
 		"id": 14,
 		"name": "Mr Fantastic",
 		"bio": "Mister Fantastic acts as the leader and father figure of the Fantastic Four, and although his cosmic ray powers are primarily stretching abilities, his presence on the team is defined by his scientific acumen, as he is officially acknowledged as the smartest man in the Marvel Universe.[2] This is particularly a point of tragedy in regards to his best friend, Ben Grimm, who he has constantly tried to turn back into his human form but who typically remains a large, rocky creature called the Thing. He is the husband of Susan Storm, father of Franklin Richards and Valeria Richards, and mentor of his brother-in-law, Johnny Storm",
-		"img": "assets/images/mr-fantastic.png",
-		"appearance": "1961-11-01",
+		"img": "mr-fantastic.png",
+		"appearance": "1961-11",
 		"company": "Marvel"
 	},
 	{
 		"id": 15,
 		"name": "Robin",
 		"bio": "The original and first Robin was Dick Grayson, later known as Nightwing, is the sidekick of Batman in most of the DC comics and cartoons, as well as the leader of the Teen Titans - his personality varies from a typical loyal sidekick to a more dangerous antihero depending on the story but he is continually shown as brave and clever but a bit too eager to prove himself to others. After him was Jason Todd, then Tim Drake, Stephanie Brown, and Damian Wayne",
-		"img": "assets/images/robin.png",
-		"appearance": "1940-04-01",
+		"img": "robin.png",
+		"appearance": "1940-04",
 		"company": "DC"
 	},
 	{
 		"id": 16,
 		"name": "Shazam",
 		"bio": "He is the alter ego of Billy Batson, a boy who, by speaking or thinking the magic word \"Shazam!\" (acronym of six \"immortal elders\": Solomon, Hercules, Atlas, Zeus, Achilles, and Mercury), can transform himself into a costumed adult with the powers of superhuman strength, speed, flight, and other abilities. The character battles an extensive rogues' gallery, most of them working in tandem as the Monster Society of Evil, including primary archenemies Doctor Sivana, Black Adam, and Mister Mind. Billy often shares his powers with other children, primarily his sister Mary Batson and their best friend/foster brother Freddy Freeman, who also transform into superheroes and fight crime with Billy as members of the Marvel Family, also known as the Shazam Family",
-		"img": "assets/images/shazam.png",
-		"appearance": "1939-12-01",
+		"img": "shazam.png",
+		"appearance": "1939-12",
 		"company": "DC"
 	},
 	{
 		"id": 17,
 		"name": "She Hulk",
 		"bio": "alters is a lawyer who, after an injury, received an emergency blood transfusion from her cousin, Bruce Banner, and acquired a milder version of his Hulk condition. As such, Walters becomes a large, powerful, green-hued version of herself. Unlike Banner she largely retains her personality, in particular the majority of her intelligence and emotional control. Like Hulk, she is still susceptible to outbursts of anger and becomes much stronger when enraged. In later series, her transformation is permanent, and she often breaks the fourth wall for humorous effect and running gags. She-Hulk has been a member of the Avengers, the Fantastic Four, Heroes for Hire, the Defenders, Fantastic Force and S.H.I.E.L.D. As a highly skilled lawyer who became a superhero by accident, she frequently leverages her legal and personal experience to serve as legal counsel to various superheroes and other metahumans",
-		"img": "assets/images/she-hulk.png",
-		"appearance": "1980-02-01",
+		"img": "she-hulk.png",
+		"appearance": "1980-02",
 		"company": "Marvel"
 	},
 	{
 		"id": 18,
 		"name": "Spider Man",
 		"bio": "Tras ser mordido por una araña radiactiva, obtuvo los siguientes poderes sobrehumanos, una gran fuerza, agilidad, poder trepar por paredes. La fuerza de Spider-Man le permite levantar 10 toneladas o más. Gracias a esta gran fuerza Spider-Man puede realizar saltos íncreibles. Un 'sentido arácnido', que le permite saber si un peligro se cierne sobre él, antes de que suceda. En ocasiones este puede llevar a Spider-Man al origen del peligro.",
-		"img": "assets/images/spiderman.png",
-		"appearance": "1962-08-01",
+		"img": "spiderman.png",
+		"appearance": "1962-08",
 		"company": "Marvel"
 	},
 	{
 		"id": 19,
 		"name": "Supergirl",
 		"bio": "Teenager Kara Zor-el was rocketed to Earth from the dying planet Krypton. Faced with an entire world completely unrecognizable from the one she grew up in, she’s the ultimate new girl in school—with a planet-splitting right hook. A lonely girl with astounding might, she struggles to find her identity on her new reluctant home. As the most powerful teenager on the planet, the Girl of Steel possesses all of Superman’s powers—from superhuman strength, speed and invulnerability all the way down to his flight and enhanced senses. Still learning to control her awesome powers and lacking her cousin’s self-restraint, she may even be more dangerous than the Man of Steel. Yet, though she may occasionally make youthful mistakes, she's also saved the world many times over, winning the unwavering trust of her adopted home and more than earning her place among Earth's heroes",
-		"img": "assets/images/supergirl.png",
-		"appearance": "1959-05-01",
+		"img": "supergirl.png",
+		"appearance": "1959-05",
 		"company": "DC"
 	},
 	{
 		"id": 20,
 		"name": "Superman",
 		"bio": "From his blue uniform to his flowing red cape to the \"S\" shield on his chest, Superman is one of the most immediately recognizable and beloved DC Super Heroes of all time. The Man of Steel is the ultimate symbol of truth, justice, and hope. He is the world's first Super Hero and a guiding light to all. The tip of the spear in a revolution that would change the landscape of pop culture, Superman has spent the last eighty years redefining what it means to stand for truth, justice and the American way. The last survivor of the doomed planet Krypton, raised in the quiet heartland of Smallville, Kansas, Superman is as much a legend as he is a man: the gold standard of heroism, compassion and responsibility. Though his powers make him god-like next to his human compatriots, Superman's story is not one of greed or conquest. Instead, he strives to represent the inherent goodness of the human spirit, and the capacity of every living thing to do right by their neighbors.",
-		"img": "assets/images/superman.png",
-		"appearance": "1938-06-01",
+		"img": "superman.png",
+		"appearance": "1938-06",
 		"company": "DC"
 	},
 	{
 		"id": 21,
 		"name": "Wolverine",
 		"bio": "He is a mutant who possesses animal-keen senses, enhanced physical capabilities, a powerful regenerative ability known as a healing factor, and three retractable claws in each hand. Wolverine has been depicted variously as a member of the X-Men, X-Force, Alpha Flight, the Fantastic Four, and the Avengers",
-		"img": "assets/images/wolverine.png",
-		"appearance": "1974-11-01",
+		"img": "wolverine.png",
+		"appearance": "1974-11",
 		"company": "Marvel"
 	},
 	{
 		"id": 22,
 		"name": "Wonder Woman",
 		"bio": "She was formed out of clay by her mother, Hippolyta, and had life bestowed upon her by the Greek gods — making her the only Amazon not conceived by a man. She grows up free of men on Paradise Island where the Amazons teach her warrior skills as well as lessons of love and peace. The gods also gift Diana with powers including strength, wisdom, courage, a hunter's heart, beauty, sisterhood, speed, and flight",
-		"img": "assets/images/wonder-woman.png",
-		"appearance": "1941-12-01",
+		"img": "wonder-woman.png",
+		"appearance": "1941-12",
 		"company": "DC"
 	}
 ]
