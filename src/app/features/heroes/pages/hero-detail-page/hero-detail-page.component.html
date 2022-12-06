@@ -4,10 +4,12 @@
 
 	<div class="col-lg-7">
 		<div class="d-flex">
-			<a routerLink="/heroes/{{ prevHeroId }}" class="btn btn-outline-warning float-start"
-				[ngClass]="prevHeroButtonVisible ? 'visible' : 'invisible'">Previous</a>
-			<a routerLink="/heroes/{{ nextHeroId }}" class="btn btn-outline-primary float-end"
-				[ngClass]="nextHeroButtonVisible ? 'visible' : 'invisible'">Next</a>
+			<div class="">
+				<a routerLink="/heroes/{{ prevHeroId }}" class="btn btn-outline-warning float-start"
+					[ngClass]="prevHeroButtonVisible ? 'visible' : 'invisible'">Previous</a>
+				<a routerLink="/heroes/{{ nextHeroId }}" class="btn btn-outline-primary float-end"
+					[ngClass]="nextHeroButtonVisible ? 'visible' : 'invisible'">Next</a>
+			</div>
 		</div>
 
 		<h1 class="fw-bold">{{ hero.name | uppercase }}</h1>

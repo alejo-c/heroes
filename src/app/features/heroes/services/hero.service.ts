@@ -11,7 +11,7 @@ export class HeroService {
 	private selectedHeroesIndexes: number[]
 
 	constructor() {
-		this.selectedHeroesIndexes = this.heroes.map(hero => hero.id)
+		this.selectedHeroesIndexes = this.heroes.map(hero => hero.id) // [1 -> 22]
 	}
 
 	getHeroesLength(): number {
@@ -22,7 +22,7 @@ export class HeroService {
 		return this.heroes[id - 1]
 	}
 
-	setSelectedHeroes(subString: string) {
+	setSelectedHeroes(subString: string): void {
 		this.selectedHeroesIndexes = this.heroes
 			.filter(
 				hero => hero.name.toLocaleLowerCase()

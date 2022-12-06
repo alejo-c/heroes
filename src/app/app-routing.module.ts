@@ -8,14 +8,14 @@ import { AuthGuard } from '@auth0/auth0-angular';
 const routes: Routes = [
 	{ path: 'about', component: AboutPageComponent },
 	{ path: 'profile', component: UserProfilePageComponent, canActivate: [AuthGuard] },
-	{ path: 'heroes', loadChildren: () => import('@features/heroes/heroes.module').then(m => m.HeroesModule) },
 	{ path: '404', component: PageNotFoundComponent },
+	{ path: 'heroes', loadChildren: () => import('@features/heroes/heroes.module').then((m) => m.HeroesModule) },
 	{ path: '', pathMatch: 'full', redirectTo: 'heroes' },
-	{ path: '**', pathMatch: 'full', redirectTo: '404' }
+	{ path: '**', pathMatch: 'full', redirectTo: '404' },
 ];
 
 @NgModule({
 	imports: [RouterModule.forRoot(routes)],
-	exports: [RouterModule]
+	exports: [RouterModule],
 })
 export class AppRoutingModule { }
