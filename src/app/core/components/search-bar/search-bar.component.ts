@@ -27,8 +27,6 @@ export class SearchBarComponent implements OnInit {
 			return
 		}
 
-		this.router.navigate(['heroes']).then(() =>
-			this.heroService.setSelectedHeroes('')
-		)
+			
 	}
 }
